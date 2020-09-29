@@ -32,4 +32,10 @@ public class ProductTest {
         product.appendStringToName("12");
         assertEquals("iphone12", product.getName());
     }
+
+    @Test
+    public void testAppendString() {
+        product.appendStringToName("12");
+        assertEquals("iphone12", product.getName());
+    }
 }
