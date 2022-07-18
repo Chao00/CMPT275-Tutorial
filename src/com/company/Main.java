@@ -12,6 +12,8 @@ public class Main {
         Product product = new Product("phone");
         System.out.println(product.getName());
         System.out.println("new branch feature");
+        System.out.println("two branches");
+        System.out.println("fix");
 
     }
 }
